@@ -14,16 +14,16 @@
 
 #define USE_SERIAL Serial
 
-#define WiFi_SSID "Rogers13486"
-#define WiFi_PASS "CDE59Rogers"
-#define Srvr_ConnectionString "http://192.168.0.19:3000/"
+#define WiFi_SSID "marconi05"
+#define WiFi_PASS "0fWar&Peace!!"
+#define Srvr_ConnectionString "http://192.168.0.101:3000/"
 
 ESP8266WiFiMulti WiFiMulti;
 
 void setup() {
 
     USE_SERIAL.begin(9600);
-   // USE_SERIAL.setDebugOutput(true);
+    USE_SERIAL.setDebugOutput(true);
 
     USE_SERIAL.println();
     USE_SERIAL.println();
